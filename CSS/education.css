@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../IMG/educationbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+header {
+    width: 100%;
+    font-size: 160%;
+    padding: 0%;
+    margin: 0%;
+}
+nav {
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(15, 15, 15, 0.171), rgba(56, 14, 40, 0.856));
+    padding: 0.31rem;
+    height: 2.8rem;
+}
+.navbar ul {
+    text-align: right;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    color: rgb(248, 244, 228);
+    margin: 0.5rem 1rem 0 1rem;
+}
+#lnk4 {
+    margin-right: 7rem;
+}
+a {
+    color: rgba(233, 180, 217, 0.767);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(233, 180, 217, 0.767);
+}
+.box{
+    width: 55%;
+    height: 75%;
+    border: 6px solid rgba(247, 181, 236, 0.205);
+    margin: 5% 22.5% 0 22.5%;
+    border-radius: 9%;
+    background-color: rgba(23, 9, 56, 0.486);
+}
+.education{
+    color: aliceblue;
+    font-size: 250%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.content ul{
+    font-size: 126%;
+}
+.content{
+    width: 85%;
+    height: 80%;
+    margin: 7% 7% 0% 13%;
+}
+section{
+    margin-top: 3.5%;
+    padding: 1.5%;
+    color: rgba(248, 196, 237, 0.753);
+}
+.content li{
+    list-style: none;
+}
+.bed,.grad,.hs,.ten{
+    width: 60%;
+    margin-left: 21%;
+}
+.content p{
+    color: rgba(240, 248, 255, 0.788);
+    font-size: 135%;
+    padding-left: 1.5%;
+    border-left: 4px solid rgb(226, 192, 240);
+}
+#inside{
+    margin-left: 4.5%;
+}
